@@ -97,8 +97,8 @@ params:
     content: "Cloud platform engineer, building scalable, automated, cloud-native solutions."
     image: /images/brave.png
     bottomImage:
-      enable: true
-      roundImage: true # Make hero image circular | default false
+      enable: false
+      roundImage: false # Make hero image circular | default false
     button:
       enable: true
       name: "Get CV"
