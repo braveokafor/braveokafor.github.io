@@ -141,7 +141,7 @@ params:
     # title: "Custom Name"
     items:
       - job: "Cloud Architect Consultant"
-        company: "KPMG LLP"
+        company: "KPMG"
         companyUrl: "https://kpmg.com/uk/en/home/services/consulting/technology/cloud-transformation-and-advisory.html"
         date: "April 2022 - present"
         content: | 
@@ -154,7 +154,7 @@ params:
           - Configuring monitoring systems with Prometheus, handling incident management, and training client engineers on best practices.
 
       - job: "Enterprise Architect"
-        company: "eTranzact International Plc"
+        company: "eTranzact"
         companyUrl: "https://www.etranzact.com/"
         date: "October 2021 - April 2022"
         content:  |
