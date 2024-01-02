@@ -1,4 +1,4 @@
-baseURL: https://braveokafor.com/
+baseURL: https://braveokafor.github.io/
 languageCode: en-gb
 title: Brave Okafor
 theme: hugo-profile
@@ -102,7 +102,7 @@ params:
     button:
       enable: true
       name: "Get CV"
-      url: "https://github.com/braveokafor/braveokafor.com/blob/main/Brave_Okafor_CV.pdf"
+      url: "https://github.com/braveokafor/braveokafor.github.io/blob/main/Brave_Okafor_CV.pdf"
       download: true
       newPage: false
     socialLinks:
