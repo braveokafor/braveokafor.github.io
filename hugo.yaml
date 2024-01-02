@@ -103,8 +103,8 @@ params:
       enable: true
       name: "Get CV"
       url: "https://github.com/braveokafor/braveokafor.github.io/blob/main/Brave_Okafor_CV.pdf"
-      download: true
-      newPage: false
+      download: false
+      newPage: true
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
