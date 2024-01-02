@@ -2,7 +2,8 @@
 
 **`Cloud Engineer (Platform/ SRE/ Data)`**
 
-I'm a cloud platform engineer, focusing on building scalable, automated, cloud-native solutions.  
+Hi, my name is Brave. I build things for the cloud.  
+
 This repo hosts the code for my [personal website](https://braveokafor.com/), you can also reach me via any of the platforms below.  
 
 ---
