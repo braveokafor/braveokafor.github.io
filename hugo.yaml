@@ -14,6 +14,7 @@ outputs:
 
 Paginate: 3
 enableRobotsTXT: true
+googleAnalytics: G-FLGS7ZKEVQ
 
 markup:
   goldmark:
@@ -78,8 +79,8 @@ params:
     disableSearch: false
     # searchPlaceholder: "Search"
     stickyNavBar:
-      enable : true
-      showOnScrollUp : true
+      enable: true
+      showOnScrollUp: true
     menus:
       disableAbout: false
       disableExperience: false
@@ -144,7 +145,7 @@ params:
         company: "KPMG"
         companyUrl: "https://kpmg.com/uk/en/home/services/consulting/technology/cloud-transformation-and-advisory.html"
         date: "April 2022 - present"
-        content: | 
+        content: |
           I am currently working as a platform engineer at KPMG in Malta, my responsibilities include:
 
           - Preparing architecture and cost proposals for client projects.
@@ -157,7 +158,7 @@ params:
         company: "eTranzact"
         companyUrl: "https://www.etranzact.com/"
         date: "October 2021 - April 2022"
-        content:  |
+        content: |
           - Designed system architecture and infrastructure for regulated workloads.
           - Designed APIs and database schemas.
           - Collaborated with multiple stakeholders and teams to deliver projects.
@@ -173,7 +174,7 @@ params:
           url: "https://upwork.com/freelancers/~01471ffc8f0450fb66"
         info:
           enable: true
-          content: Delivered cloud engineering and DevOps expertise across various projects.  
+          content: Delivered cloud engineering and DevOps expertise across various projects.
         content: |
           Delivered cloud engineering and DevOps expertise across various projects.
 
@@ -232,23 +233,23 @@ params:
         url: https://google.accredible.com/e82028e4-c08f-434f-a081-ed7052a6df13
         image: /images/certifications/professional-cloud-architect.png
       - title: Professional Cloud Developer
-        issuer:  Google Cloud
+        issuer: Google Cloud
         url: https://google.accredible.com/bfc54599-fe7e-4788-abb8-c2c534ff45ab
         image: /images/certifications/professional-cloud-developer.png
       - title: Professional Cloud DevOps Engineer
-        issuer:  Google Cloud
+        issuer: Google Cloud
         url: https://google.accredible.com/9a1bfd79-51d6-401a-b639-dded045cf5a0
         image: /images/certifications/professional-cloud-devops-engineer.png
       - title: Professional Cloud Security Engineer
-        issuer:  Google Cloud
+        issuer: Google Cloud
         url: https://google.accredible.com/ada13897-1f58-4a82-abdc-6aa6c19748c0
         image: /images/certifications/professional-cloud-security-engineer.png
       - title: Professional Data Engineer
-        issuer:  Google Cloud
+        issuer: Google Cloud
         url: https://google.accredible.com/2803d21f-6a48-4780-ba91-22408d37f69d
         image: /images/certifications/professional-data-engineer.png
       - title: Professional Machine Learning Engineer
-        issuer:  Google Cloud
+        issuer: Google Cloud
         url: https://google.accredible.com/5731bbc2-be67-4414-8bdc-c6c8a6eff7cd
         image: /images/certifications/professional-machine-learning-engineer.png
       - title: Microsoft Certified - Azure Solutions Architect Expert
