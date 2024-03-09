@@ -21,14 +21,6 @@ markup:
     renderer:
       unsafe: true
 
-Menus:
-  main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
-      weight: 1
-
 params:
   title: "Brave Okafor"
   description: Cloud Engineer (Platform/ SRE/ Data)
@@ -103,7 +95,7 @@ params:
     button:
       enable: true
       name: "Get CV"
-      url: "https://github.com/braveokafor/braveokafor.github.io/blob/main/Brave_Okafor_CV.pdf"
+      url: /assets/Brave_Okafor_CV.pdf
       download: false
       newPage: true
     socialLinks:
@@ -306,12 +298,6 @@ params:
     btnName: Mail me
 
   footer:
-    recentPosts:
-      path: "blogs"
-      count: 3
-      title: Recent Posts
-      enable: true
-      disableFeaturedImage: false
     socialNetworks:
       github: https://github.com/braveokafor
       linkedin: https://linkedin.com/in/braveokafor
