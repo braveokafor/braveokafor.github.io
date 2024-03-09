@@ -36,7 +36,7 @@ params:
   animate: true
 
   theme:
-    disableThemeToggle: true
+    disableThemeToggle: false
     defaultTheme: "light" # dark
 
   font:
