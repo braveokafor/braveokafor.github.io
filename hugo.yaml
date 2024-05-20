@@ -212,32 +212,36 @@ params:
         image: /images/certifications/terraform-associate.png
       - title: AWS Certified Solutions Architect - Professional
         issuer: Amazon Web Services Training and Certification
-        url: https://www.credly.com/badges/3384876a-ef39-411a-a36d-3c3655ca07b2
+        url: https://www.credly.com/badges/3384876a-ef39-411a-a36d-3c3655ca07b2/
         image: /images/certifications/aws-sap-c02.png
       - title: Professional Cloud Architect
         issuer: Google Cloud
-        url: https://google.accredible.com/e82028e4-c08f-434f-a081-ed7052a6df13
-        image: /images/certifications/professional-cloud-architect.png
+        url: https://www.credly.com/badges/7ba994f6-64fa-4b6d-9f86-2b72237c64fc/
+        image: /images/certifications/professional-cloud-architect-certification.png
       - title: Professional Cloud Developer
         issuer: Google Cloud
-        url: https://google.accredible.com/bfc54599-fe7e-4788-abb8-c2c534ff45ab
-        image: /images/certifications/professional-cloud-developer.png
+        url: https://www.credly.com/badges/643a05ce-401f-48fc-a28c-9fb2c8b37808/
+        image: /images/certifications/professional-cloud-developer-certification.png
       - title: Professional Cloud DevOps Engineer
         issuer: Google Cloud
-        url: https://google.accredible.com/9a1bfd79-51d6-401a-b639-dded045cf5a0
-        image: /images/certifications/professional-cloud-devops-engineer.png
+        url: https://www.credly.com/badges/e72704de-92b8-472c-8b16-764fe3be63f3/
+        image: /images/certifications/professional-cloud-devops-engineer-certification.png
       - title: Professional Cloud Security Engineer
         issuer: Google Cloud
-        url: https://google.accredible.com/ada13897-1f58-4a82-abdc-6aa6c19748c0
-        image: /images/certifications/professional-cloud-security-engineer.png
+        url: https://www.credly.com/badges/e884d5f8-838a-4272-9eb7-915771931f45/
+        image: /images/certifications/professional-cloud-security-engineer-certification.png
       - title: Professional Data Engineer
         issuer: Google Cloud
-        url: https://google.accredible.com/2803d21f-6a48-4780-ba91-22408d37f69d
-        image: /images/certifications/professional-data-engineer.png
+        url: https://www.credly.com/badges/24ea4286-b2b6-420b-8183-1f12357bc7e8/
+        image: /images/certifications/professional-data-engineer-certification.png
+      - title: Professional Cloud Database Engineer
+        issuer: Google Cloud
+        url: https://www.credly.com/badges/31c5291c-0d3f-4b3f-8468-c4e69d81c447/
+        image: /images/certifications/professional-cloud-database-engineer-certification.2.png
       - title: Professional Machine Learning Engineer
         issuer: Google Cloud
-        url: https://google.accredible.com/5731bbc2-be67-4414-8bdc-c6c8a6eff7cd
-        image: /images/certifications/professional-machine-learning-engineer.png
+        url: https://www.credly.com/badges/2c6097cb-25c0-41e9-b9d7-abaadc757705/
+        image: /images/certifications/professional-machine-learning-engineer-certificatio.png
       - title: Starburst Certified Practitioner
         issuer: Starburst
         url: https://www.credly.com/badges/79dc0709-532f-444b-b554-fcc65c963423/
