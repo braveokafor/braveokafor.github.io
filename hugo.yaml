@@ -86,7 +86,7 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Brave."
-    subtitle: "I build things for the cloud"
+    subtitle: "I build stuff for the cloud"
     content: "Cloud platform engineer, building scalable, automated, cloud-native solutions."
     image: /images/brave.png
     bottomImage:
@@ -253,6 +253,7 @@ params:
     items:
       - title: Terraform GCP Template
         content: Terraform template to bootstrap a baseline einvironment on Google Cloud.
+        image: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg
         badges:
           - "terraform"
           - "gcp"
@@ -263,6 +264,7 @@ params:
 
       - title: Terraform AWS Template
         content: Terraform template to bootstrap a baseline environment on AWS.
+        image: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg
         badges:
           - "terraform"
           - "aws"
@@ -273,6 +275,7 @@ params:
 
       - title: Health Checker
         content: Lightweight Utility for performing HTTP Health Checks in Distroless Docker Environments.
+        image: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg
         badges:
           - "golang"
           - "docker"
