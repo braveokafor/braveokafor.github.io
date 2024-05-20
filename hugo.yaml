@@ -244,6 +244,10 @@ params:
         issuer: Google Cloud
         url: https://google.accredible.com/5731bbc2-be67-4414-8bdc-c6c8a6eff7cd
         image: /images/certifications/professional-machine-learning-engineer.png
+      - title: Starburst Certified Practitioner
+        issuer: Starburst
+        url: https://www.credly.com/badges/79dc0709-532f-444b-b554-fcc65c963423/
+        image: /images/certifications/starburst-certified-practitioner.png
       - title: Microsoft Certified - Azure Solutions Architect Expert
         issuer: Microsoft
         url: https://www.credly.com/badges/d474b106-4f7b-4401-a76a-a037df580e7c/
