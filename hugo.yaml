@@ -115,8 +115,8 @@ params:
     content: |-
       Hey there! 
 
-      I'm a techie who loves building systems that just work, no matter how much you throw at them. 
-      My bread and butter is coding and cloud stuff, but I love using tech to automate all things.
+      I'm a techie who loves building systems that just work, no matter how much you throw at them.  
+      My bread and butter is coding and cloud stuff, but I love using tech to automate all things.  
 
       These days, I'm a Cloud Platforms Engineering Consultant at KPMG.
 
@@ -251,38 +251,32 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Ollama WebUI Helm
-        content: Helm chart to deploy Ollama WebUI - A ChatGPT-Style Web UI Client for Ollama 🦙
-        image: /images/projects/ollama-webui-helm.gif
-        featured:
-          name: Demo
-          link: https://github.com/braveokafor/ollama-webui-helm?tab=readme-ov-file#ollama-webui
+      - title: Terraform GCP Template
+        content: Terraform template to bootstrap a baseline einvironment on Google Cloud.
         badges:
-          - "helm"
-          - "ollama"
-          - "llm"
-          - "llama"
+          - "terraform"
+          - "gcp"
+          - "github-actions"
         links:
           - icon: fab fa-github
-            url: https://github.com/braveokafor/ollama-webui-helm
+            url: https://github.com/braveokafor/terraform-gcp-template
 
-      - title: GKE ArgoCD
-        content: ArgoCD on GKE with integrated Google Cloud optimisations and security.
-        image: /images/projects/gke-argocd.png
+      - title: Terraform AWS Template
+        content: Terraform template to bootstrap a baseline environment on AWS.
         badges:
-          - "kubernetes"
-          - "argo-cd"
-          - "helm"
+          - "terraform"
+          - "aws"
+          - "github-actions"
         links:
           - icon: fab fa-github
-            url: https://github.com/braveokafor/gke-argocd
+            url: https://github.com/braveokafor/terraform-aws-template
 
       - title: Health Checker
-        content: Health Checker is a Lightweight Utility for HTTP Health Checks in Distroless Docker Environments.
-        image: /images/projects/healthchecker.png
+        content: Lightweight Utility for performing HTTP Health Checks in Distroless Docker Environments.
         badges:
           - "golang"
           - "docker"
+          - "cli"
         links:
           - icon: fab fa-github
             url: https://github.com/braveokafor/healthchecker
