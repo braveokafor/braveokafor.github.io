@@ -113,13 +113,16 @@ params:
     title: "About Me"
     image: "/images/brave.png"
     content: |-
-      I am a cloud solutions specialist with a passion for efficient and scalable systems. My background is in software development and cloud computing, with a particular interest in the intersection of technology and automation.
+      Hey there! 
 
-      Currently, I am a Cloud Platforms Engineer Consultant at KPMG.
+      I'm a techie who loves building systems that just work, no matter how much you throw at them. 
+      My bread and butter is coding and cloud stuff, but I love using tech to automate all things.
+
+      These days, I'm a Cloud Platforms Engineering Consultant at KPMG.
 
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: "Some of the tools I've been playing around with lately:"
       items:
         - "Kubernetes"
         - "Helm"
@@ -127,6 +130,7 @@ params:
         - "Terraform"
         - "Kafka"
         - "Golang"
+        - "Ollama"
 
   # Experience
   experience:
@@ -136,25 +140,25 @@ params:
       - job: "Cloud Architect Consultant"
         company: "KPMG"
         companyUrl: "https://kpmg.com/uk/en/home/services/consulting/technology/cloud-transformation-and-advisory.html"
-        date: "April 2022 - present"
+        date: "May 2022 - present"
         content: |
-          I am currently working as a platform engineer at KPMG in Malta, my responsibilities include:
-
-          - Preparing architecture and cost proposals for client projects.
-          - Designing and implementing secure cloud infrastructure in regulated environments.
-          - Managing cloud resources and orchestrating applications with technologies like Terraform and Kubernetes.
-          - Implementing CI/CD and data pipelines using technologies such as GitHub Actions, GitLab CI, Apache Beam, and Kafka.
-          - Configuring monitoring systems with Prometheus, handling incident management, and training client engineers on best practices.
+          - Prepared project bids, including cost estimation, timeline projection, and resource allocation.
+          - Designed, implemented, and managed cloud resources using IaC tools such as Terraform and Pulumi.
+          - Implemented CI/CD pipelines using technologies like GitHub Actions, and GitLabCI.
+          - Managed production Kubernetes workloads using technologies like ArgoCD and Helm.
+          - Assisted in the design and implementation of data warehouses, data pipelines and ML pipelines. 
+          - Designed and implemented monitoring and alerting strategies to track SLAs, Error Budgets, etc.
+          - Built CLI apps and automated platform tasks using Python and Golang.
 
       - job: "Enterprise Architect"
         company: "eTranzact"
         companyUrl: "https://www.etranzact.com/"
         date: "October 2021 - April 2022"
         content: |
-          - Designed system architecture and infrastructure for regulated workloads.
-          - Designed APIs and database schemas.
-          - Collaborated with multiple stakeholders and teams to deliver projects.
-          - Supported Java (Tomcat) SpringBoot applications on Azure VM and Azure App Service.
+          - Developed system architecture and infrastructure for services, including APIs and database schemas.
+          - Collaborated with team members to identify and create Proof of Concepts (POCs) for new market opportunities.
+          - Worked with stakeholders across multiple teams to deliver one of the company's first services on the cloud.
+          - Provided support for Java (Tomcat) SpringBoot applications on Azure.
 
       - job: "Cloud Architect Consultant"
         company: "Upwork"
@@ -170,20 +174,10 @@ params:
         content: |
           Delivered cloud engineering and DevOps expertise across various projects.
 
-          - Designed and implemented infrastructure using technologies such as Terraform and Pulumi.
-          - Designed and implemented CI/CD pipelines using technologies such as GitHub Actions, Jenkins and Cloud Build.
-          - Designed and implemented data pipelines using technologies such as Azure Synapse Analytics, an Google Cloud Dataflow.
-          - Trained and deployed machine learning models using technologies such as Google Cloud AutoML.
-
-      - job: "Fullstack Web Developer"
-        company: "Freelance"
-        companyUrl: "https://linkedin.com/in/braveokafor"
-        date: " October 2012 - July 2019"
-        content: |
-          - Developed websites using Python (Flask), Node.js (MERN), PHP (LAMP).
-          - Utilised databases like MySQL, PostgreSQL, Firebase (Datastore).
-          - Deployed web applications on GCP, AWS, Azure, and PAAS providers like Netlify, Heroku.
-          - Managed applications on shared hosting services like DreamHost, HostGator.
+          - Provisioned and managed cloud resources using IaC tools such as Terraform and Pulumi.
+          - Migrated workloads to the cloud with minimal downtime.
+          - Implemented CI/CD pipelines for infrastructure and application code using GitHub Actions, GitLab CI, etc.
+          - Implemented data warehouses and data pipelines.
 
   # Achievements
   achievements:
