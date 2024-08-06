@@ -21,58 +21,38 @@ markup:
     renderer:
       unsafe: true
 
+Menus:
+  main:
+    - identifier: posts
+      name: Posts
+      title: Posts
+      url: /posts
+      weight: 1
+
 params:
   title: "Brave Okafor"
   description: Cloud Engineer (Platform/ SRE/ Data)
-  # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
 
-  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
-  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
-  # Note the lack of "" in true, it should be of boolean type.
-  useBootstrapCDN: true
+  useBootstrapCDN: false
 
-  # Whether the fade animations on the home page will be enabled
   animate: true
 
-  theme:
-    disableThemeToggle: false
-    defaultTheme: "light" # dark
-
   font:
-    fontSize: 1rem # default: 1rem
-    fontWeight: 400 # default: 400
-    lineHeight: 1.5 # default: 1.5
-    textAlign: left # default: left
+    fontSize: 1rem
+    fontWeight: 400
+    lineHeight: 1.5
+    textAlign: left
 
-  # color preference
-  # color:
-  #   textColor:
-  #   secondaryTextColor:
-  #   backgroundColor:
-  #   secondaryBackgroundColor:
-  #   primaryColor:
-  #   secondaryColor:
-
-  #   darkmode:
-  #     textColor:
-  #     secondaryTextColor:
-  #     backgroundColor:
-  #     secondaryBackgroundColor:
-  #     primaryColor:
-  #     secondaryColor:
-
-  # If you want to customize the menu, you can change it here
   navbar:
-    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
-    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
-    showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "Brave Okafor" # Brand name for the brand | default is the title variable
+    align: ms-auto
+    showBrandLogo: false
+    brandName: "Brave Okafor"
     disableSearch: false
-    # searchPlaceholder: "Search"
     stickyNavBar:
       enable: true
       showOnScrollUp: true
+    enableSeparator: false
     menus:
       disableAbout: false
       disableExperience: false
@@ -88,10 +68,10 @@ params:
     title: "Brave."
     subtitle: "I build stuff for the cloud"
     content: "Cloud platform engineer, building scalable, automated, cloud-native solutions."
-    image: /images/brave.png
+    # image: /images/brave.png
     bottomImage:
       enable: false
-      roundImage: false # Make hero image circular | default false
+      roundImage: false
     button:
       enable: true
       name: "Get CV"
@@ -111,11 +91,11 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/brave.png"
+    # image: "/images/brave.png"
     content: |-
       Hey there! 
 
-      I'm a techie who loves building systems that just work, no matter how much you throw at them.  
+      I love building systems that just work, no matter how much you throw at them.  
       My bread and butter is coding and cloud stuff, but I love using tech to automate all things.  
 
       These days, I'm a Cloud Platforms Engineering Consultant at KPMG.
@@ -128,14 +108,11 @@ params:
         - "Helm"
         - "ArgoCD"
         - "Terraform"
-        - "Kafka"
         - "Golang"
-        - "Ollama"
 
   # Experience
   experience:
     enable: true
-    # title: "Custom Name"
     items:
       - job: "Cloud Architect Consultant"
         company: "KPMG"
@@ -182,78 +159,60 @@ params:
   # Achievements
   achievements:
     enable: true
-    title: "Hackathons"
-    items:
-      - title: Google Cloud Hero - Data Processing with Dataflow
-        content: Finished within the top 3 of all participants.
-        url: https://www.cloudskillsboost.google/public_profiles/d03100ed-e243-41d0-ae07-d0e26084d578/badges/6517281
-        image: /images/achievements/data-processing-with-dataflow.png
-      - title: Google Cloud Hero - Security
-        content: Finished within the top 3 of all participants.
-        url: https://www.cloudskillsboost.google/public_profiles/d03100ed-e243-41d0-ae07-d0e26084d578/badges/3190024
-        image: images/achievements/cloud-hero-security.png
-      - title: Google Cloud Hero - Intro to BigQuery Analytics & Machine Learning
-        content: Finished within the top 3 of all participants.
-        url: https://www.cloudskillsboost.google/public_profiles/d03100ed-e243-41d0-ae07-d0e26084d578/badges/2696917
-        image: /images/achievements/bigquery-analytics-machine-learning.png
-
-  # Certifications
-  certifications:
-    enable: true
     title: "Certifications"
     items:
       - title: CKA - Certified Kubernetes Administrator
-        issuer: The Linux Foundation
+        content: The Linux Foundation
         url: https://www.credly.com/badges/e78d2915-9d35-4deb-bcad-15ffacaa1e3d/
         image: /images/certifications/cka_from_cncfsite.png
       - title: HashiCorp Certified - Terraform Associate (002)
-        issuer: HashiCorp
+        content: HashiCorp
         url: https://www.credly.com/badges/3d5fea8e-1200-41b8-9070-4bc4398b151a/
         image: /images/certifications/terraform-associate.png
       - title: AWS Certified Solutions Architect - Professional
-        issuer: Amazon Web Services Training and Certification
+        content: Amazon Web Services Training and Certification
         url: https://www.credly.com/badges/3384876a-ef39-411a-a36d-3c3655ca07b2/
         image: /images/certifications/aws-sap-c02.png
       - title: Professional Cloud Architect
-        issuer: Google Cloud
+        content: Google Cloud
         url: https://www.credly.com/badges/7ba994f6-64fa-4b6d-9f86-2b72237c64fc/
         image: /images/certifications/professional-cloud-architect-certification.png
       - title: Professional Cloud Developer
-        issuer: Google Cloud
+        content: Google Cloud
         url: https://www.credly.com/badges/643a05ce-401f-48fc-a28c-9fb2c8b37808/
         image: /images/certifications/professional-cloud-developer-certification.png
       - title: Professional Cloud DevOps Engineer
-        issuer: Google Cloud
+        content: Google Cloud
         url: https://www.credly.com/badges/e72704de-92b8-472c-8b16-764fe3be63f3/
         image: /images/certifications/professional-cloud-devops-engineer-certification.png
       - title: Professional Cloud Security Engineer
-        issuer: Google Cloud
+        content: Google Cloud
         url: https://www.credly.com/badges/e884d5f8-838a-4272-9eb7-915771931f45/
         image: /images/certifications/professional-cloud-security-engineer-certification.png
       - title: Professional Data Engineer
-        issuer: Google Cloud
+        content: Google Cloud
         url: https://www.credly.com/badges/24ea4286-b2b6-420b-8183-1f12357bc7e8/
         image: /images/certifications/professional-data-engineer-certification.png
       - title: Professional Cloud Database Engineer
-        issuer: Google Cloud
+        content: Google Cloud
         url: https://www.credly.com/badges/31c5291c-0d3f-4b3f-8468-c4e69d81c447/
         image: /images/certifications/professional-cloud-database-engineer-certification.2.png
       - title: Professional Machine Learning Engineer
-        issuer: Google Cloud
+        content: Google Cloud
         url: https://www.credly.com/badges/2c6097cb-25c0-41e9-b9d7-abaadc757705/
         image: /images/certifications/professional-machine-learning-engineer-certificatio.png
       - title: Starburst Certified Practitioner
-        issuer: Starburst
+        content: Starburst
         url: https://www.credly.com/badges/79dc0709-532f-444b-b554-fcc65c963423/
         image: /images/certifications/starburst-certified-practitioner.png
       - title: Microsoft Certified - Azure Solutions Architect Expert
-        issuer: Microsoft
+        content: Microsoft
         url: https://www.credly.com/badges/d474b106-4f7b-4401-a76a-a037df580e7c/
         image: /images/certifications/azure-solutions-architect-expert.png
+
   # projects
   projects:
     enable: true
-    # title: "Custom Name"
     items:
       - title: Terraform GCP Template
         content: Terraform template to bootstrap a baseline einvironment on Google Cloud.
@@ -291,27 +250,36 @@ params:
   #Contact
   contact:
     enable: true
-    # title: "Custom Name"
     content: My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
-    email: okaforbrave@gmail.com
     btnName: Mail me
+    btnLink: mailto:okaforbrave@gmail.com
 
   footer:
+    recentPosts:
+      path: "posts"
+      count: 3
+      title: Recent Posts
+      enable: true
+      disableFeaturedImage: false
     socialNetworks:
       github: https://github.com/braveokafor
       linkedin: https://linkedin.com/in/braveokafor
       twitter: https://twitter.com/_braveokafor
+
   # List pages like blogs and posts
   listPages:
     disableFeaturedImage: false
 
   # Single pages like blog and post
   singlePages:
+    socialShare: true
     readTime:
       enable: true
       content: "min read"
     scrollprogress:
       enable: true
+    tags:
+      openInNewTab: true
 
   # For translations
   terms:
@@ -325,6 +293,3 @@ params:
     article: "Jan 2, 2006"
     articleList: "Jan 2, 2006"
     articleRecent: "Jan 2, 2006"
-
-  #customScripts: -| # You can add custom scripts which will be added before </body> tag
-  #  <script type="text/javascript"><!-- any script here --></script>
