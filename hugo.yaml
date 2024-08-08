@@ -15,6 +15,7 @@ outputs:
 Paginate: 3
 enableRobotsTXT: true
 googleAnalytics: G-FLGS7ZKEVQ
+disqusShortname: braveokafor
 
 markup:
   goldmark:
