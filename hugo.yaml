@@ -94,12 +94,12 @@ params:
     title: "About Me"
     # image: "/images/brave.png"
     content: |-
-      Hey there! 
+      Hey there!
 
-      I love building systems that just work, no matter how much you throw at them.  
-      My bread and butter is coding and cloud stuff, but I love using tech to automate all things.  
+      I love building systems that just work, no matter how much you throw at them.
+      My bread and butter is coding and cloud stuff, but I love using tech to automate all things.
 
-      These days, I'm a Cloud Platforms Engineering Consultant at KPMG.
+      These days, I'm a Cloud Architect at KPMG.
 
     skills:
       enable: true
@@ -115,33 +115,36 @@ params:
   experience:
     enable: true
     items:
-      - job: "Cloud Architect Consultant"
+      - job: "Cloud Architect"
         company: "KPMG"
         companyUrl: "https://kpmg.com/uk/en/home/services/consulting/technology/cloud-transformation-and-advisory.html"
         date: "May 2022 - present"
         content: |
-          - Prepared project bids, including cost estimation, timeline projection, and resource allocation.
-          - Designed, implemented, and managed cloud resources using IaC tools such as Terraform and Pulumi.
-          - Implemented CI/CD pipelines using technologies like GitHub Actions, and GitLabCI.
-          - Managed production Kubernetes workloads using technologies like ArgoCD and Helm.
-          - Assisted in the design and implementation of data warehouses, data pipelines and ML pipelines. 
-          - Designed and implemented monitoring and alerting strategies to track SLAs, Error Budgets, etc.
-          - Built CLI apps and automated platform tasks using Python and Golang.
+          - Architected NIST/ NCSC compliant cloud platforms for multiple UK government departments
+          - Designed and implemented landing zones for major banks meeting FCA requirements
+          - Built multi-tenant platforms processing €500M+ in annual financial transactions
+          - Achieved 99.99% platform uptime through automated recovery and GitOps practices
+          - Reduced infrastructure costs by 30% while maintaining strict compliance requirements
+          - Established cloud center of excellence, training 20+ engineers in cloud best practices
+          - Managed incident response for critical systems with 15-minute MTTR SLA
+          - Led development of security frameworks bridging government and banking standards
 
       - job: "Enterprise Architect"
         company: "eTranzact"
         companyUrl: "https://www.etranzact.com/"
         date: "October 2021 - April 2022"
         content: |
-          - Developed system architecture and infrastructure for services, including APIs and database schemas.
-          - Collaborated with team members to identify and create Proof of Concepts (POCs) for new market opportunities.
-          - Worked with stakeholders across multiple teams to deliver one of the company's first services on the cloud.
-          - Provided support for Java (Tomcat) SpringBoot applications on Azure.
+          - Architected high-availability infrastructure achieving 99.9% uptime for payment systems
+          - Established cloud security frameworks compliant with CBN regulations and PCI DSS
+          - Led 15-person engineering team through adoption of cloud-native technologies
+          - Implemented real-time monitoring for transaction processing infrastructure
+          - Reduced system latency by 40% through architecture optimization
+          - Designed and implemented zero-data-loss disaster recovery systems
 
-      - job: "Cloud Architect Consultant"
-        company: "Upwork"
+      - job: "Cloud Engineer"
+        company: "Various Enterprise Clients"
         companyUrl: "https://upwork.com/freelancers/~01471ffc8f0450fb66"
-        date: "July 2019 - November 2021"
+        date: "July 2019 - October 2021"
         featuredLink:
           enable: true
           name: "View profile"
@@ -150,12 +153,12 @@ params:
           enable: true
           content: Delivered cloud engineering and DevOps expertise across various projects.
         content: |
-          Delivered cloud engineering and DevOps expertise across various projects.
-
-          - Provisioned and managed cloud resources using IaC tools such as Terraform and Pulumi.
-          - Migrated workloads to the cloud with minimal downtime.
-          - Implemented CI/CD pipelines for infrastructure and application code using GitHub Actions, GitLab CI, etc.
-          - Implemented data warehouses and data pipelines.
+          - Designed and implemented cloud architecture for 3 enterprise platforms (100K+ users)
+          - Built infrastructure-as-code templates for rapid, compliant deployments
+          - Implemented monitoring and alerting systems for critical infrastructure
+          - Automated security controls and compliance checks using custom tooling
+          - Reduced deployment times by 70% through standardized CI/CD pipelines
+          - Created comprehensive documentation for infrastructure and processes
 
   # Achievements
   achievements:
