@@ -5,12 +5,12 @@ theme: hugo-profile
 
 outputs:
   home:
-    - "HTML"
-    - "RSS"
-    - "JSON"
+    - HTML
+    - RSS
+    - JSON
   page:
-    - "HTML"
-    - "RSS"
+    - HTML
+    - RSS
 
 Paginate: 3
 enableRobotsTXT: true
@@ -31,9 +31,10 @@ Menus:
       weight: 1
 
 params:
-  title: "Brave Okafor"
-  description: Cloud Engineer (Platform/ SRE/ Data)
-  favicon: "/fav.png"
+  title: Brave Okafor
+  description: Platform Engineer · Multi-Tenant PaaS · Distributed Systems ·
+    Kubernetes · Golang
+  favicon: /fav.png
 
   useBootstrapCDN: false
 
@@ -48,7 +49,7 @@ params:
   navbar:
     align: ms-auto
     showBrandLogo: false
-    brandName: "Brave Okafor"
+    brandName: Brave Okafor
     disableSearch: false
     stickyNavBar:
       enable: true
@@ -65,17 +66,17 @@ params:
   # Hero
   hero:
     enable: true
-    intro: "Hi, my name is"
-    title: "Brave."
-    subtitle: "I build stuff for the cloud"
-    content: "Cloud platform engineer, building scalable, automated, cloud-native solutions."
-    # image: /images/brave.png
+    intro: Hi, my name is
+    title: Brave
+    subtitle: I build the platform layer between cloud and product
+    content: Platform engineer at Weaviate Cloud. Multi-tenant PaaS, control planes,
+      Kubernetes
     bottomImage:
       enable: false
       roundImage: false
     button:
       enable: true
-      name: "Get CV"
+      name: View CV
       url: /assets/Brave_Okafor_CV.pdf
       download: false
       newPage: true
@@ -85,94 +86,90 @@ params:
           url: https://github.com/braveokafor
         - icon: fab fa-linkedin
           url: https://linkedin.com/in/braveokafor
-        - icon: fab fa-x-twitter
-          url: https://twitter.com/_braveokafor
 
   # About
   about:
     enable: true
-    title: "About Me"
-    # image: "/images/brave.png"
+    title: About Me
     content: |-
-      Hey there!
+      I build cloud infrastructure platforms - the provisioning systems, lifecycle orchestration layers, and platform services that expose complex infrastructure as a reliable, scalable product.
 
-      I love building systems that just work, no matter how much you throw at them.
-      My bread and butter is coding and cloud stuff, but I love using tech to automate all things.
+      Currently at Weaviate Cloud, owning platform capabilities end-to-end across a production multi-tenant PaaS on GCP, AWS, and Azure. My work spans the control plane, cluster lifecycle automation (Temporal), storage platform architecture, and GPU inference infrastructure - in a small, senior team where engineers own significant problems from design through production.
 
-      These days, I'm a Cloud Architect at KPMG.
+      Previously at KPMG's managed services practice, leading platform delivery for ISV clients in regulated industries: fraud detection, risk analytics, and compliance tooling deployed as managed services for banks, financial regulators, and government institutions.
+
+      CNCF Kubestronaut. Most effective in roles combining deep technical ownership with technical leadership.
 
     skills:
       enable: true
-      title: "Some of the tools I've been playing around with lately:"
+      title: "My stack:"
       items:
-        - "Kubernetes"
-        - "Helm"
-        - "ArgoCD"
-        - "Terraform"
-        - "Golang"
+        - Go
+        - Kubernetes
+        - Temporal
+        - gRPC
+        - Pulumi
+        - OpenTelemetry
 
   # Experience
   experience:
     enable: true
     items:
-      - job: "Cloud Architect"
-        company: "KPMG"
-        companyUrl: "https://kpmg.com/uk/en/home/services/consulting/technology/cloud-transformation-and-advisory.html"
-        date: "May 2022 - present"
+      - job: Senior Platform Engineer
+        company: Weaviate
+        companyUrl: https://weaviate.io
+        date: Oct 2024 - Present
         content: |
-          - Architected NIST/ NCSC compliant cloud platforms for multiple UK government departments
-          - Designed and implemented landing zones for major banks meeting FCA requirements
-          - Built multi-tenant platforms processing €500M+ in annual financial transactions
-          - Achieved 99.99% platform uptime through automated recovery and GitOps practices
-          - Reduced infrastructure costs by 30% while maintaining strict compliance requirements
-          - Established cloud center of excellence, training 20+ engineers in cloud best practices
-          - Managed incident response for critical systems with 15-minute MTTR SLA
-          - Led development of security frameworks bridging government and banking standards
+          Weaviate Cloud is a multi-tenant PaaS - managed vector database clusters provisioned on-demand across GCP, AWS, and Azure, serving billions of vectors.
 
-      - job: "Enterprise Architect"
-        company: "eTranzact"
-        companyUrl: "https://www.etranzact.com/"
-        date: "October 2021 - April 2022"
+          - Own and extend Go-based control plane services provisioning isolated database clusters per tenant across GCP, AWS, and Azure - covering VPC peering, Kubernetes bootstrapping, and cloud-specific networking and storage configuration
+          - Designed and built cluster lifecycle orchestration using Temporal - full provisioning and teardown state machine with retry logic, timeout budgets, and rollback handling against partial cloud API failures
+          - Built and optimise GPU-based embeddings service running inference models on GPU nodes - batching and request routing tuned for throughput and p99 latency under production load
+          - Develop observability and profiling infrastructure with OpenTelemetry to monitor platform operations and database performance
+          - Manage production Kubernetes clusters across three clouds, each with distinct CNI, IAM, and load balancer implementations
+
+      - job: Cloud Architect
+        company: KPMG MBS
+        companyUrl: https://kpmg.com
+        date: Apr 2022 - Sep 2024
         content: |
-          - Architected high-availability infrastructure achieving 99.9% uptime for payment systems
-          - Established cloud security frameworks compliant with CBN regulations and PCI DSS
-          - Led 15-person engineering team through adoption of cloud-native technologies
-          - Implemented real-time monitoring for transaction processing infrastructure
-          - Reduced system latency by 40% through architecture optimization
+          KPMG managed services operated as an external platform provider - ISVs in fraud detection, risk analytics, and compliance tooling partnered with KPMG to run their software as a managed service for banks, financial regulators, and government institutions, with KPMG owning the full platform and operational layer. I owned end-to-end delivery of the platform layer for multiple ISVs - from initial architecture to handoff.
+
+          - Built managed deployment platforms per engagement: custom Kubernetes controllers and helm charts, resource governance, multi-tenant isolation, and security policy across client environments
+          - Designed platforms with least-privilege defaults, audit logging, and compliance controls satisfying FCA and SEC-adjacent requirements without bespoke work per client engagement
+          - Built customer-facing portals and API surface through which clients monitored deployments, and used the services
+          - Designed SLO/error budget framework across managed services - providing clients with contractually-backed service commitments and a structured mechanism for reliability trade-offs
+          - Built observability stack (Prometheus, Grafana, Loki) and incident response automation that classified failure patterns and triggered remediation runbooks - reducing MTTR on recurring failure modes
+
+      - job: Enterprise Architect, Cloud Infrastructure
+        company: eTranzact International
+        companyUrl: https://www.etranzact.com/
+        date: Oct 2021 - Apr 2022
+        content: |
+          - Architected high-availability infrastructure achieving 99.9% uptime
+          - Reduced system latency by 40% through architecture optimisation
           - Designed and implemented zero-data-loss disaster recovery systems
+          - Implemented automated scaling and failover mechanisms
 
-      - job: "Cloud Engineer"
-        company: "Various Enterprise Clients"
-        companyUrl: "https://upwork.com/freelancers/~01471ffc8f0450fb66"
-        date: "July 2019 - October 2021"
-        featuredLink:
-          enable: true
-          name: "View profile"
-          url: "https://upwork.com/freelancers/~01471ffc8f0450fb66"
-        info:
-          enable: true
-          content: Delivered cloud engineering and DevOps expertise across various projects.
+      - job: Cloud & Infrastructure Engineer
+        company: Various Clients
+        companyUrl:
+        date: Jul 2019 - Oct 2021
         content: |
-          - Designed and implemented cloud architecture for 3 enterprise platforms (100K+ users)
-          - Built infrastructure-as-code templates for rapid, compliant deployments
-          - Implemented monitoring and alerting systems for critical infrastructure
-          - Automated security controls and compliance checks using custom tooling
-          - Reduced deployment times by 70% through standardized CI/CD pipelines
-          - Created comprehensive documentation for infrastructure and processes
+          - Built GPU training infrastructure including a job scheduler balancing cluster utilisation against wait time without starving long-running jobs
+          - Implemented checkpointing for training pipelines enabling mid-run recovery from failure, reducing wasted compute on long-running workloads
+          - Built CI/CD pipelines with progressive rollouts, metric-gated promotion, and automatic rollback on regression
+          - Built distributed tracing and monitoring for debugging multi-service distributed workflows
 
   # Achievements
   achievements:
     enable: true
-    title: "Certifications"
+    title: Certifications
     items:
-      - title: CKA - Certified Kubernetes Administrator
+      - title: Kubestronaut
         content: The Linux Foundation
-        url: https://www.credly.com/badges/e78d2915-9d35-4deb-bcad-15ffacaa1e3d/
-        image: /images/certifications/cka_from_cncfsite.png
-      - title: HashiCorp Certified - Terraform Associate (002)
-        content: HashiCorp
-        url: https://www.credly.com/badges/3d5fea8e-1200-41b8-9070-4bc4398b151a/
-        image: /images/certifications/terraform-associate.png
+        url:
+        image: /images/certifications/kubestronaut_from_cncfsite.png
       - title: AWS Certified Solutions Architect - Professional
         content: Amazon Web Services Training and Certification
         url: https://www.credly.com/badges/3384876a-ef39-411a-a36d-3c3655ca07b2/
@@ -181,26 +178,10 @@ params:
         content: Google Cloud
         url: https://www.credly.com/badges/7ba994f6-64fa-4b6d-9f86-2b72237c64fc/
         image: /images/certifications/professional-cloud-architect-certification.png
-      - title: Professional Cloud Developer
-        content: Google Cloud
-        url: https://www.credly.com/badges/643a05ce-401f-48fc-a28c-9fb2c8b37808/
-        image: /images/certifications/professional-cloud-developer-certification.png
-      - title: Professional Cloud DevOps Engineer
-        content: Google Cloud
-        url: https://www.credly.com/badges/e72704de-92b8-472c-8b16-764fe3be63f3/
-        image: /images/certifications/professional-cloud-devops-engineer-certification.png
-      - title: Professional Cloud Security Engineer
-        content: Google Cloud
-        url: https://www.credly.com/badges/e884d5f8-838a-4272-9eb7-915771931f45/
-        image: /images/certifications/professional-cloud-security-engineer-certification.png
-      - title: Professional Data Engineer
-        content: Google Cloud
-        url: https://www.credly.com/badges/24ea4286-b2b6-420b-8183-1f12357bc7e8/
-        image: /images/certifications/professional-data-engineer-certification.png
-      - title: Professional Cloud Database Engineer
-        content: Google Cloud
-        url: https://www.credly.com/badges/31c5291c-0d3f-4b3f-8468-c4e69d81c447/
-        image: /images/certifications/professional-cloud-database-engineer-certification.2.png
+      - title: Microsoft Certified - Azure Solutions Architect Expert
+        content: Microsoft
+        url: https://www.credly.com/badges/d474b106-4f7b-4401-a76a-a037df580e7c/
+        image: /images/certifications/azure-solutions-architect-expert.png
       - title: Professional Machine Learning Engineer
         content: Google Cloud
         url: https://www.credly.com/badges/2c6097cb-25c0-41e9-b9d7-abaadc757705/
@@ -209,58 +190,50 @@ params:
         content: Starburst
         url: https://www.credly.com/badges/79dc0709-532f-444b-b554-fcc65c963423/
         image: /images/certifications/starburst-certified-practitioner.png
-      - title: Microsoft Certified - Azure Solutions Architect Expert
-        content: Microsoft
-        url: https://www.credly.com/badges/d474b106-4f7b-4401-a76a-a037df580e7c/
-        image: /images/certifications/azure-solutions-architect-expert.png
 
   # projects
   projects:
     enable: true
     items:
-      - title: Terraform GCP Template
-        content: Terraform template to bootstrap a baseline einvironment on Google Cloud.
-        image: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg
+      - title: ConnectRPC AuthZ
+        content: >
+          Authorisation interceptor library for ConnectRPC in Go. Supports
+          custom authorisation logic and policy-based authorisation via Casbin,
+          covering unary and streaming RPCs across Connect, gRPC, and gRPC-Web
+          protocols.
+        image: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/grpc/grpc-original.svg
         badges:
-          - "terraform"
-          - "gcp"
-          - "github-actions"
+          - go
+          - connectrpc
+          - grpc
         links:
           - icon: fab fa-github
-            url: https://github.com/braveokafor/terraform-gcp-template
-
-      - title: Terraform AWS Template
-        content: Terraform template to bootstrap a baseline environment on AWS.
-        image: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg
-        badges:
-          - "terraform"
-          - "aws"
-          - "github-actions"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/braveokafor/terraform-aws-template
+            url: https://github.com/braveokafor/connectrpc-authz
 
       - title: Health Checker
-        content: Lightweight Utility for performing HTTP Health Checks in Distroless Docker Environments.
+        content: >
+          Lightweight Go utility for HTTP health checks in distroless container
+          environments - built to solve a real operational gap in production
+          Kubernetes workloads.
         image: https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg
         badges:
-          - "golang"
-          - "docker"
-          - "cli"
+          - go
+          - kubernetes
+          - docker
         links:
           - icon: fab fa-github
             url: https://github.com/braveokafor/healthchecker
 
-  #Contact
   contact:
     enable: true
-    content: My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+    content: |
+      Always happy to chat about platform engineering. Reach out at:
     btnName: Mail me
     btnLink: mailto:okaforbrave@gmail.com
 
   footer:
     recentPosts:
-      path: "posts"
+      path: posts
       count: 3
       title: Recent Posts
       enable: true
@@ -268,9 +241,7 @@ params:
     socialNetworks:
       github: https://github.com/braveokafor
       linkedin: https://linkedin.com/in/braveokafor
-      twitter: https://twitter.com/_braveokafor
-
-  # List pages like blogs and posts
+      # List pages like blogs and posts
   listPages:
     disableFeaturedImage: false
 
@@ -279,7 +250,7 @@ params:
     socialShare: true
     readTime:
       enable: true
-      content: "min read"
+      content: min read
     scrollprogress:
       enable: true
     tags:
@@ -287,13 +258,13 @@ params:
 
   # For translations
   terms:
-    read: "Read"
-    toc: "Table Of Contents"
-    copyright: "Brave Okafor"
-    pageNotFound: "Page not found"
-    emailText: "Check out this site"
+    read: Read
+    toc: Table Of Contents
+    copyright: Brave Okafor
+    pageNotFound: Page not found
+    emailText: Check out this site
 
   datesFormat:
-    article: "Jan 2, 2006"
-    articleList: "Jan 2, 2006"
-    articleRecent: "Jan 2, 2006"
+    article: Jan 2, 2006
+    articleList: Jan 2, 2006
+    articleRecent: Jan 2, 2006
